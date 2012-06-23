@@ -1,4 +1,0 @@
-MCConsoleLauncher
-=================
-
-Minecraft Console Launcher
