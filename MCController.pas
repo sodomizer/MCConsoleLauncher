@@ -26,7 +26,7 @@ begin
   par.Add('user='+params[0]);
   par.Add('password='+params[1]);
   par.Add('version=13');
-  Result:=HTTP.Post('http://kool.dyndns.org/mc/auth/login.php', par);
+  Result:=HTTP.Post('http://example.com/auth.php', par);
 
   //Antibruteforce
   if Pos(':', Result)=0 then
